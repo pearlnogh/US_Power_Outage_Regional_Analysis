@@ -13,7 +13,9 @@ Exploratory data analysis of severe weather–related power outages across the U
 ---
 ## Results
 - Outage severity does not scale with event frequency.
+![Scatter](figures/frequency_vs_severity.png)
 - County-level concentration varies substantially across states.
+![Scatter](figures/county_impact_share.png)
 ---
 
 ## Highlights
