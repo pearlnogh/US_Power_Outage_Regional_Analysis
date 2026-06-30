@@ -37,12 +37,6 @@ This project explores regional patterns in severe weather–related power outage
 **Event-correlated Outage Dataset in America (2023)**  
 Pacific Northwest National Laboratory (PNNL)
 
-Data sources include:
-
-- EAGLE-I Power Outage Data
-- DOE-417 Electric Emergency Incident Reports
-- U.S. County Population Estimates
-
 Dataset: [Event-correlated Outage Dataset in America](https://data.openei.org/submissions/6458)
 
 ---
