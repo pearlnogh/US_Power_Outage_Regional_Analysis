@@ -1,6 +1,6 @@
-# Regional Patterns of Severe Weather Power Outages in the United States
+# Regional Patterns of U.S. Severe Weather Power Outages
 
-Exploratory data analysis of severe weather–related power outages across the United States using the EAGLE-I Event-correlated Outage Dataset in 2023.
+This project explores regional patterns in severe weather–related power outages across the United States in 2023, examining how outage frequency and severity vary across states and counties.
 
 ---
 
@@ -11,31 +11,24 @@ Exploratory data analysis of severe weather–related power outages across the U
 - How is outage impact distributed within high-impact states?
 
 ---
-## Results
+## Key Insights
+
 - Outage severity does not scale with event frequency.
+
 ![Scatter](figures/frequency_vs_severity.png)
-- County-level concentration varies substantially across states.
-![Scatter](figures/county_impact_share.png)
+
+- Outage impacts are concentrated differently across counties within each state.
+
+![Scatter](figures/county_impact_share.png) 
+
 ---
 
 ## Highlights
 
-- Analyzed approximately 77K outage events across the United States.
-- Focused on severe weather events (>60% of all recorded outages).
+- Analyzed ~77,000 power outage events across the United States.
+- Focused on severe weather and weather or natural disaster events (>70% of all recorded outages).
 - Compared outage frequency and severity at both the state and county levels.
 - Identified counties contributing disproportionately to outage impacts in high-impact states.
-
----
-
-## Repository
-
-```text
-US_Power_Outage_Regional_Analysis/
-│
-├── power_outage_regional_analysis.ipynb
-├── requirements.txt
-└── README.md
-```
 
 ---
 
@@ -50,7 +43,7 @@ Data sources include:
 - DOE-417 Electric Emergency Incident Reports
 - U.S. County Population Estimates
 
-Dataset: https://data.openei.org/submissions/6458
+Dataset: [Event-correlated Outage Dataset in America](https://data.openei.org/submissions/6458)
 
 ---
 
